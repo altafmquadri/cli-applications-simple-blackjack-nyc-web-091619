@@ -26,11 +26,20 @@ def end_game(card_total)
 end
 
 def initial_round
+<<<<<<< HEAD
   c1 = deal_card
   c2 = deal_card
   card_total = c1 + c2
   display_card_total(card_total)
   card_total
+=======
+  deal_card
+  deal_card
+  sum = deal_card + deal_card
+  display_card_total(sum)
+  
+ 
+>>>>>>> 46b2a43b4ba64a0e1c041ee93faf33a8d088e1d0
 end
 
 def hit?(number)
